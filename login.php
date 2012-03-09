@@ -55,7 +55,7 @@ if (!empty($valid)){
 	echo "<h2><span style=\"color:#45A747\">".$valid."</span></h2>";
 }
 if (!empty($error)){
-	echo $error;
+	echo "<h2><span style=\"color:#B80202\">".$error."</span></h2>";
 }
 if (!empty($info)){
 	echo $info;
