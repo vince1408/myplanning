@@ -43,10 +43,10 @@ if (!empty($_POST["logform"])){
 				}
 				
 			}else{
-				$error .= "Erreur les mots de passes ne correspondent pas !";
+				$error .= "Erreur les mots de passes ne correspondent pas";
 			}
 	}else{
-		$error .= "Erreur Login ou Pass ne correspondent pas !";
+		$error .= "Erreur Login ou Pass ne correspondent pas";
 	}
 
 }
