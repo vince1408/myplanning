@@ -79,7 +79,7 @@ if (isset($_SESSION["newsub"]) && $_SESSION["newsub"] == 1){
     <form name="subform" method="POST" action="?pageid=1">
     <fieldset>
     <legend>Inscription</legend>
-	<p>Login ou Mail<br>
+	<p>Identifiant ou Mail<br>
       <input class="textin" name="useremail" placeholder="Login ou mail" type="text" /></p>
     <p>Mot de passe<br>
       <input class="textin" name="userpassword" placeholder="mdp" onClick="this.value='';" type="password" />
